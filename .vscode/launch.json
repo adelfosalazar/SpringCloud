@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MsvcProductsApplication<msvc-products> 8001",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.adelfo.springcloud.msvc.products.MsvcProductsApplication",
+            "projectName": "msvc-products",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MsvcProductsApplication<msvc-products> 9001",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.adelfo.springcloud.msvc.products.MsvcProductsApplication",
+            "projectName": "msvc-products",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": "-Dserver.port=9001"
+        }
+    ]
+}
